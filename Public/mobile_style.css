@@ -1,0 +1,92 @@
+@media only screen and (max-width: 760px){
+    body{
+        overflow-x: hidden;
+    }
+    /* Head SEC1 */
+    .prim h1{
+        font-size:2.5rem;
+    }
+    .prim h2{
+        font-size:2rem;
+    }
+    .prim{
+        height: fit-content;
+    }
+    .prim .col-8{
+        width: 100%;
+    }
+    .prim h2{
+        font-size:2rem;
+    }
+    .prim p{
+        line-height: 150%;
+    }
+    .sec {
+        text-align: center;
+        align-content: center;
+        padding:0;
+    }
+    .sec .btn-sm{
+        width: 80%;
+        margin: auto;
+    }
+    .sec div {
+        padding:0;
+    }
+    .sec div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec h2{
+        text-align: center;
+        font-size: 3rem;
+        margin: 0;
+    }
+    .sec h3{
+        text-align: center;
+        font-size: 2rem;
+        margin: 0;
+    }
+    .sec p{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .sec a{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .sec img{
+        display: none;
+    }
+    .wings::after{
+        display:none;
+    }
+    .wings::before{
+        display:none;
+    }
+    .card{
+        border:none;
+        margin-bottom: 1rem;
+    }
+    .cardrow{
+        text-align: center;
+    }
+    .footer{
+        display:flex;
+        flex-direction: column;
+    }
+    .footer .col-3{
+        display: none;
+    }
+    .footer .col-5{
+        width: 100%;
+    }
+    .footer .col-4{
+        display: none;
+    }
+    .footer img{
+        display: none;
+    }
+}
