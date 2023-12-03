@@ -268,7 +268,12 @@
 .value-card{
     align-items: center;
     vertical-align: middle;
-    min-height: 15rem;
+    min-height: 20rem;
+}
+.service-card i{
+    font-size: 7rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
 }
 /* FOOTER START */
 .footer{

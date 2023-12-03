@@ -101,6 +101,7 @@
     .cardrow i{
         font-size: 4rem;
     }
+
     .sec .cardtitlerow{
         font-size: 1.4rem;
         min-height: auto;
@@ -110,6 +111,22 @@
         font-size: 1rem;
         min-height: auto;
         text-align: center;
+    }
+    .value-card h3{
+        font-size: 1rem;
+        min-height: fit-content;
+    }
+    .value-card{
+        font-size: 0.7rem;
+        min-height: fit-content;
+    }
+    .service-card i{
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
+    }
+    .service-card h3{
+        font-size: 1.5rem;
     }
     .footer{
         height: fit-content;
