@@ -275,6 +275,68 @@
     margin-bottom: 2rem;
     margin-top: 3rem;
 }
+/* LAWSUIT START */
+.lawsuit{
+    padding: 5rem;
+    min-height: 100vh;
+    position: relative;
+
+
+}
+.lawsuit h3{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.lawsuit p{
+    margin-top: 1rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.lawsuit .col-6{
+    width:60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* HOME BUTTON */
+.homebutton {
+    right: 0px;
+    text-align: center;
+    width: fit-content;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    position: absolute;
+    z-index: 2;}
+	
+.homebutton a {
+    display: block;
+    margin-bottom: 1em;
+    padding: 0.3em 1.25em;
+    border: 1px solid #c2c7cc;
+    font-size: 1.1rem;
+    line-height: 1.667em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    background: white;
+    transition: 0.5s;
+    border-radius: 2rem;
+}
+.homebutton a:hover {
+    border-color: #42B6F3;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+/* EARPLUGS */
+.earplugs{
+    background: linear-gradient(rgba(4,9,30,0.95),rgba(11, 21, 59, 0.95)), url(../imgs/3M.jpg);
+    background-size: cover;
+}
+
+
+/* LAWSUIT END */
 /* FOOTER START */
 .footer{
     height: 50vh;

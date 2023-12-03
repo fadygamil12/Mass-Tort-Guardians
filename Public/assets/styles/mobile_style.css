@@ -128,6 +128,17 @@
     .service-card h3{
         font-size: 1.5rem;
     }
+    .sec .homebutton{
+        display: none;
+    }
+    .lawsuit{
+        height: fit-content;
+    }
+    .lawsuit .col-6{
+        margin: auto;
+        position: static;
+        transform: translate(0,0);
+    }
     .footer{
         height: fit-content;
         display:flex;
