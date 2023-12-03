@@ -240,7 +240,11 @@
    box-sizing: border-box ;
 
 }
-
+.value-card{
+    align-items: center;
+    vertical-align: middle;
+    min-height: 15rem;
+}
 /* FOOTER START */
 .footer{
     height: 50vh;
