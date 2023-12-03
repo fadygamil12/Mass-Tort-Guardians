@@ -66,6 +66,12 @@
     .wings::before{
         display:none;
     }
+    .wingsb::after{
+        display:none;
+    }
+    .wingsb::before{
+        display:none;
+    }
     .card{
         border:none;
         margin-bottom: 1rem;
