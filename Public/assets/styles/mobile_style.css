@@ -83,6 +83,12 @@
     .wingsb::before{
         display:none;
     }
+    #msgmsg{
+        padding: 0.25rem;
+    }
+    #msgmsg h3{
+        font-size: 1.2rem;
+    }
     .card{
         border:none;
         margin-bottom: 1rem;
