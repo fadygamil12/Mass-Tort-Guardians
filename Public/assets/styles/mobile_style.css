@@ -2,6 +2,11 @@
     body{
         overflow-x: hidden;
     }
+    /* NAV */
+    .navbar .container-fluid{
+        flex-wrap:wrap;
+    }
+
     /* Head SEC1 */
     .prim{
         height: fit-content;
@@ -20,11 +25,14 @@
     .sec {
         text-align: center;
         align-content: center;
-        padding:0;
+        padding: 2rem;
     }
     .sec .btn-sm{
         width: 80%;
         margin: auto;
+    }
+    .btn{
+        font-size: 1rem;
     }
     .sec div {
         padding:0;
@@ -34,6 +42,11 @@
         display: flex;
         flex-direction: column;
     }
+    .sec h1{
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 0;
+    }
     .sec h2{
         text-align: center;
         font-size: 1.5rem;
@@ -41,8 +54,9 @@
     }
     .sec h3{
         text-align: center;
-        font-size: 2rem;
-        margin: 0;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     .sec p{
         text-align: center;
@@ -50,7 +64,8 @@
     }
     .sec a{
         text-align: center;
-        font-size: 2rem;
+        padding: 0.5rem;
+        font-size: 1.4rem;
         margin-bottom: 2rem;
     }
     .sec img{
@@ -72,10 +87,32 @@
         border:none;
         margin-bottom: 1rem;
     }
-    .cardrow{
+    .card i{
+        font-size: 4rem;
+    }
+    .sec .cardtitle{
+        font-size: 1.4rem;
+        min-height: auto;
+    }
+    .sec .cardtext{
+        font-size: 1rem;
+        min-height: auto;
+    }
+    .cardrow i{
+        font-size: 4rem;
+    }
+    .sec .cardtitlerow{
+        font-size: 1.4rem;
+        min-height: auto;
+        text-align: center;
+    }
+    .sec .cardtextrow{
+        font-size: 1rem;
+        min-height: auto;
         text-align: center;
     }
     .footer{
+        height: fit-content;
         display:flex;
         flex-direction: column;
     }
