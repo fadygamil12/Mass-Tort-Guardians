@@ -331,6 +331,13 @@
     background-color: transparent;
     text-decoration: none;
 }
+.questions p{
+    margin-bottom: 2rem;
+}
+.question{
+    font-size: 2rem;
+    color: var(--blue2);
+}
 /* EARPLUGS */
 .earplugs{
     background: linear-gradient(rgba(4,9,30,0.95),rgba(11, 21, 59, 0.95)), url(../imgs/3M.jpg);

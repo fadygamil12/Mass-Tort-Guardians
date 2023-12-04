@@ -145,6 +145,10 @@
         position: static;
         transform: translate(0,0);
     }
+    .question{
+        font-size: 1.3rem;
+        color: var(--blue2);
+    }
     .footer{
         height: fit-content;
         display:flex;
