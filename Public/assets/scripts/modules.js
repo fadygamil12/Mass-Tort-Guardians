@@ -4,7 +4,7 @@ class MainFooter extends HTMLElement{
         <section class="row footer w-100 p-5 m-0">
         <div class="col-5 flex-column ">
           <img src="assets/icons/logow.svg" width="250" height="100" alt="">
-          <a href="" class="btn fw-bold w-100 mb-2 mt-5 text-light" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/maxwillie/dafs'});return false;">Schedule An Appointment</a>
+          <a href="" class="btn fw-bold w-100 mb-2 mt-5 text-light" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/maxwillie/30-mins-meeting'});return false;">Schedule time with me</a>
           <a href="./contactus.html" class="btn fw-bold w-100 btn-outline text-light">Contact Us</a>
           
         </div>
@@ -41,7 +41,7 @@ class LawsuitsFooter extends HTMLElement{
     <section class="row footer w-100 p-5 m-0">
     <div class="col-5 flex-column ">
       <img src="../assets/icons/logow.svg" width="250" height="100" alt="">
-      <a href="" class="btn fw-bold w-100 mb-2 mt-5 text-light" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/maxwillie/dafs'});return false;">Schedule An Appointment</a>
+      <a href="" class="btn fw-bold w-100 mb-2 mt-5 text-light" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/maxwillie/30-mins-meeting'});return false;">Schedule time with me</a>
       <a href="../contactus.html" class="btn fw-bold w-100 btn-outline text-light">Contact Us</a>
       
     </div>
