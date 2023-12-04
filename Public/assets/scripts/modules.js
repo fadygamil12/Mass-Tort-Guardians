@@ -76,6 +76,7 @@ class MainHead extends HTMLElement{
     this.innerHTML=`<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <!-- LINK GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -91,7 +92,7 @@ class MainHead extends HTMLElement{
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <!-- LINK SCRIPT OF CALENDLY -->
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-    <title>Mass Tort Guardians</title>
+
   </head>`
   }
 }
