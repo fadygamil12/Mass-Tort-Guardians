@@ -149,6 +149,13 @@
         font-size: 1.3rem;
         color: var(--blue2);
     }
+    .pop-up h3{
+        font-size: 1.2rem;
+        margin: none;
+    }
+    .pop-up h3 {
+        margin: none;
+    }
     .footer{
         height: fit-content;
         display:flex;

@@ -338,6 +338,27 @@
     font-size: 2rem;
     color: var(--blue2);
 }
+/* POPUP START */
+.pop-up{
+    position: fixed;
+    top:50%;
+    left:200%;
+    transform: translate(-50% ,-50%);
+    background-color: lightgray;
+    padding: 2rem;
+    border-radius: 3rem;
+    z-index: 999;
+    transition: 1s;
+}
+.pop-up h3{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.pop-up p{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
 /* EARPLUGS */
 .earplugs{
     background: linear-gradient(rgba(4,9,30,0.95),rgba(11, 21, 59, 0.95)), url(../imgs/3M.jpg);
