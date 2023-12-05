@@ -1,7 +1,8 @@
 class MainFooter extends HTMLElement{
     connectedCallback(){
         this.innerHTML= `
-        <section class="row footer w-100 p-5 m-0">
+        <section class="column footer w-100 p-5 m-0" style="height:fit-content">
+        <div class="row">
         <div class="col-5 flex-column ">
           <img src="assets/icons/logow.svg" width="250" height="100" alt="">
           <a href="" class="btn fw-bold w-100 mb-2 mt-5 text-light" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/maxwillie/30-mins-meeting'});return false;">Schedule time with me</a>
@@ -26,9 +27,13 @@ class MainFooter extends HTMLElement{
             <i class="text-light h5 fa-solid fa-envelope"></i>
             <a class="text-light h6 " style="text-decoration: none;" href="">mailto:max@mtguardians.com</a>
           </div>
-    
+
           
         </div>
+        </div>
+        <!-- <div class="m-auto mt-5 mb-0 text-center" style="width:fit-content">
+        <a href="" class="text-center text-btn text-light h6">© Copyrights reseved to MakeYourOwnWebsite</a>
+        </div> -->
       </section>
         `
     }

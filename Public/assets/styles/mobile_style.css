@@ -83,6 +83,19 @@
     .wingsb::before{
         display:none;
     }
+    .sec .msgform{
+        margin: auto;
+        padding: 1rem;
+        align-content: center;
+        background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../imgs/Home\ BG1.jpg);
+        border-radius: 2rem;
+    }
+    .sec .form-check{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+    }
     #msgmsg{
         padding: 0.25rem;
     }
@@ -155,6 +168,9 @@
     }
     .pop-up h3 {
         margin: none;
+    }
+    .sec .text-btn{
+        font-size: 1rem;
     }
     .footer{
         height: fit-content;

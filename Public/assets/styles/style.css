@@ -213,6 +213,7 @@
 /* MESSAGE FORM START */
 .msgform{
     margin: auto;
+    padding: 3rem;
     align-content: center;
     background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../imgs/Home\ BG1.jpg);
     border-radius: 2rem;
@@ -385,5 +386,9 @@
     font-size: 1.5rem;
     padding: 1rem;
     width: auto;
+}
+.footer .text-btn{
+    margin: auto;
+    font-size: 1rem;
 }
 /* FOOTER END */
