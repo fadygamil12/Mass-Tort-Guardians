@@ -213,6 +213,7 @@
 /* MESSAGE FORM START */
 .msgform{
     margin: auto;
+    margin-top: 5rem;
     padding: 3rem;
     align-content: center;
     background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../imgs/Home\ BG1.jpg);
@@ -366,7 +367,13 @@
     background-size: cover;
 }
 
-
+.land-pa{
+    font-weight: 300;
+    padding: 2rem;
+}
+.land-pa h3{
+    font-size: 2rem;
+}
 /* LAWSUIT END */
 /* FOOTER START */
 .footer{
