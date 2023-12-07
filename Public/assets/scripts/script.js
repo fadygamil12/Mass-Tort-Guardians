@@ -42,3 +42,9 @@ if (ru_form){
         .catch(error => console.log(error))
     })
     }
+$(window).on("load",function(){
+    setTimeout(function(){
+        $(".loader-wrapper").fadeOut("slow");
+    },500)
+    
+});
