@@ -86,6 +86,8 @@ class MainHead extends HTMLElement{
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
     <!-- LINK STYLESHEET BOOTSTRAP FILE -->
     <link rel="stylesheet" href="./assets/styles/bootstrap.css">
     <!-- LINK STYLESHEET CSS FILE -->
@@ -112,6 +114,8 @@ class LawsuitsHead extends HTMLElement{
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
     <!-- LINK STYLESHEET BOOTSTRAP FILE -->
     <link rel="stylesheet" href="../assets/styles/bootstrap.css">
     <!-- LINK STYLESHEET CSS FILE -->

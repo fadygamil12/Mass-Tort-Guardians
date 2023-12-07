@@ -229,6 +229,15 @@
     transition: ease;
     transition: 0.5s;
 }
+.clform{
+    margin: auto;
+    margin-top: 0;
+    padding: 3rem;
+    align-content: center;
+    /* background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../imgs/Home\ BG1.jpg); */
+    background-color:#10ac84;
+;
+}
 #msgmsg{
     background-color: #27ae60;
     display: none;
@@ -368,8 +377,8 @@
 }
 
 .land-pa{
-    font-weight: 300;
-    padding: 2rem;
+    font-weight: 30 0;
+    padding: 0;
 }
 .land-pa h3{
     font-size: 2rem;
