@@ -101,6 +101,16 @@
 .btn-sm{
     width: 30%;
 }
+.btn-ln{
+    background-color: #27ae60;
+    font-size: 1.4rem;
+    border: #27ae60 0.1rem solid;
+    transition: 0.5;
+}
+.btn-ln:hover{
+    background-color: transparent;
+    border: #27ae60 0.1rem solid;
+}
 /* HOME PAGE START */
 .two{
     background-color: #F3F4F6;
@@ -375,7 +385,42 @@
     background: linear-gradient(rgba(4,9,30,0.95),rgba(11, 21, 59, 0.95)), url(../imgs/3M.jpg);
     background-size: cover;
 }
-
+.landing-sec{
+    padding: 8rem;
+}
+.landing-sec h3{
+    font-size: 2.5rem;
+}
+.landing-sec p{
+    font-size: 1.5rem;
+}
+.landing-card{
+    position: relative;
+    text-align: center;
+    padding: 2rem;
+    background-color: #ecf0f1;
+    border: #27ae60 solid 0.1rem;
+}
+.landing-num{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.landing-card i{
+    color: #16a085;
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+.landing-card h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.landing-card p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
 .land-pa{
     font-weight: 30 0;
     padding: 0;

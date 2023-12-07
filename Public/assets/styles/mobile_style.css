@@ -172,6 +172,41 @@
     .sec .text-btn{
         font-size: 1rem;
     }
+    .sec .landing-card{
+        position: relative;
+        text-align: center;
+        padding: 2rem;
+        background-color: #ecf0f1;
+        border: #27ae60 solid 0.1rem;
+        margin-bottom: 2rem;
+    }
+    .sec .reverse{
+        flex-direction: column-reverse;
+    }
+    .landing-num{
+        position: absolute;
+        width: fit-content;
+        top: 0;
+        left: 0;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    .landing-num span{
+        width: fit-content;
+    }
+    .landing-card i{
+        color: #16a085;
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+    .landing-card h3{
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .landing-card p{
+        font-size: 1rem;
+        font-weight: 400;
+    }
     .footer{
         height: fit-content;
         display:flex;
