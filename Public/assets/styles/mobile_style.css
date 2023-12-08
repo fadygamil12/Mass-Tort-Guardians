@@ -207,6 +207,21 @@
         font-size: 1rem;
         font-weight: 400;
     }
+    .landing-form h3{
+        font-size: 1.5rem;
+    }
+    .landing-form label{
+        font-size: 1rem;
+    }
+    .landing-form p{
+        font-size: 0.7rem;
+    }
+    .prim .landing-title{
+        font-size: 3rem;
+    }
+    .sec .btn-ln{
+        font-size: 1rem;
+    }
     .footer{
         height: fit-content;
         display:flex;

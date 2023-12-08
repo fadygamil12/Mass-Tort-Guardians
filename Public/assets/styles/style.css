@@ -64,6 +64,13 @@
     width: 100%;
     background-color: gray;
 }
+.under-w::after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
 /* NAV BAR START */
 .nav-item a{
     font-size: 1.2rem;
@@ -246,8 +253,25 @@
     align-content: center;
     /* background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../imgs/Home\ BG1.jpg); */
     background-color:#10ac84;
-;
 }
+.landing-form h3{
+    font-size: 3rem;
+    color: lightgoldenrodyellow;
+    font-weight: 700;
+}
+.landing-form input{
+    margin-bottom: 1rem;
+}
+.landing-form select{
+    margin-bottom: 1rem;
+}
+.landing-form label{
+    font-size: 1.3rem;
+}
+.landing-form p{
+    font-size: 1rem;
+}
+
 #msgmsg{
     background-color: #27ae60;
     display: none;
