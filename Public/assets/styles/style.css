@@ -113,6 +113,8 @@
     font-size: 1.4rem;
     border: #27ae60 0.1rem solid;
     transition: 0.5;
+    color: white;
+    font-weight: 700;
 }
 .btn-ln:hover{
     background-color: transparent;
@@ -259,6 +261,7 @@
     color: lightgoldenrodyellow;
     font-weight: 700;
 }
+
 .landing-form input{
     margin-bottom: 1rem;
 }
@@ -268,8 +271,47 @@
 .landing-form label{
     font-size: 1.3rem;
 }
+
 .landing-form p{
     font-size: 1rem;
+}
+
+
+
+
+.landing-form2 h3{
+    font-size: 2rem;
+    color: darkgreen;
+    font-weight: 700;
+}
+
+.landing-form2 input{
+    margin-bottom: 1rem;
+}
+.landing-form2 select{
+    margin-bottom: 1rem;
+}
+.landing-form2 label{
+    font-size: 1.3rem;
+}
+
+.landing-form2 p{
+    font-size: 1rem;
+    color: darkgreen;
+}
+.landing-form2{
+    padding: 2rem;
+}
+.landing-form2 label{
+    color: darkgreen;
+    font-size: 1.3rem;
+}
+.landing-nav img{
+    width: 40%;
+
+}
+.landing-nav h3{
+    font-size: 1.5rem;
 }
 
 #msgmsg{

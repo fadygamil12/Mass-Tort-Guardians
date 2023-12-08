@@ -222,6 +222,30 @@
     .sec .btn-ln{
         font-size: 1rem;
     }
+
+    .landing-nav img{
+        width: 80%;
+    
+    }
+    .landing-nav h3{
+        display: none;
+    }
+    .landing-form2 h3{
+        font-size: 1.2rem;
+    }
+    .landing-form2 label{
+        font-size: 1rem;
+    }
+    .landing-form2 p{
+        font-size: 0.7rem;
+    }
+    .prim .landing-title{
+        font-size: 3rem;
+    }
+    .sec .btn-ln{
+        font-size: 1rem;
+    }
+    
     .footer{
         height: fit-content;
         display:flex;
