@@ -21,11 +21,7 @@ class MainFooter extends HTMLElement{
           </div>
           <div class="row flex-nowrap">
             <i class="text-light h5 fa-solid fa-envelope"></i>
-            <a class="text-light h6 " style="text-decoration: none;" href="">mailto:val@mtguardians.com</a>
-          </div>
-          <div class="row flex-nowrap">
-            <i class="text-light h5 fa-solid fa-envelope"></i>
-            <a class="text-light h6 " style="text-decoration: none;" href="">mailto:max@mtguardians.com</a>
+            <a class="text-light h6 " style="text-decoration: none;" href="">info@masstortguardians.com</a>
           </div>
 
           
@@ -61,13 +57,9 @@ class LawsuitsFooter extends HTMLElement{
         <a class="text-light h6 " style="text-decoration: none;" href="">949-961-1226</a>
       </div>
       <div class="row flex-nowrap">
-        <i class="text-light h5 fa-solid fa-envelope"></i>
-        <a class="text-light h6 " style="text-decoration: none;" href="">mailto:val@mtguardians.com</a>
-      </div>
-      <div class="row flex-nowrap">
-        <i class="text-light h5 fa-solid fa-envelope"></i>
-        <a class="text-light h6 " style="text-decoration: none;" href="">mailto:max@mtguardians.com</a>
-      </div>
+      <i class="text-light h5 fa-solid fa-envelope"></i>
+      <a class="text-light h6 " style="text-decoration: none;" href="">info@masstortguardians.com</a>
+    </div>
 
       
     </div>
