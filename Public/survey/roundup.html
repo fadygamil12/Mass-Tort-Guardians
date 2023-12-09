@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <script type=module src="../assets/scripts/modules.js"></script>
+  <head>
+    <title>Roundup</title>
+    <link rel="icon" type="image/x-icon" href="../assets/icons/logo.ico">
+  </head>
+  <ls-head></ls-head>
+<body class="overflowx-hidden">
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <!-- NAV BAR START -->
+    <!-- <section class="prim w-100 p-5" style="position: relative; background: linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)), url(../assets/imgs/roupbanner.jpg);
+    background-size: cover; height: 50vh;">
+      <div class="row" style="width: fit-content;position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);">
+        <div class="col-12 text-center m-auto">
+        <h2 class="fw-bolder text-dark landing-title"><span style="color: black;">Round</span>up</h2>
+        </div>
+
+    </div>
+    </section> -->
+    <div class="row w-100 p-3 align-items-center justify-content-around landing-nav">
+      <div class="col-4">
+        <img src="../assets/icons/logo.svg" alt="">
+      </div>
+      <div class="col-4">
+        <h3>Questions? Call 949-961-1226</h3>
+      </div>
+    </div>
+    <!-- HOME SECTION#1 END -->
+    <!-- HOME SECTION#2 START -->
+    <section id="form" class="section sec p-0 w-100" style="background: linear-gradient(rgba(233, 233, 233, 0.9),rgba(233, 233, 233,0.9)),url(../assets/imgs/pattern.jpg); background-repeat:repeat;">
+      <div class="col-12">
+
+            <div class="clform landing-form m-auto w-100 col-12 p-5" style="background: linear-gradient(rgba(29, 137, 76,0.3),rgba(29, 137, 76, 0.3)), url(../assets/imgs/roupform.jfif); background-size: cover;">
+              
+              <!-- <h3 class="text-light text-center m-0 mb-5" style="font-family: Playpen Sans; font-size: 1.5rem;">no obligation or cost to you</h3> -->
+              <!-- --------------FORM START--------------------- -->
+
+              <form class="p-5 col-md-8 bg-light rounded m-auto" name="clform" method="post" action="">
+                <!-- HEAD OF THE FORM -->
+                <h3 class="text-center m-0 mb-2 under">FREE CONSULTATION</h3>
+                <h3 class="text-center m-0 mb-5 ">Start the Process Here to See if you Qualify</h3>
+                <!-- HEAD OF THE FORM -->
+                <!-- MESSAGE -->
+                <div id="msgmsg" class=" text-center m-auto w-100">
+                  <h3 class="fw-bolder">Sumbited</h3>
+                </div>
+                <!-- MESSAGE -->
+
+                <!-- Q1 -->
+                <div class="row w-100 m-auto mb-1 mt-1">
+                  <div>
+                    <label for="use" class="form-label">Did You or a Loved One Use the Popular Grass/Weed Killer Roundup?</label>
+                    <select type="text" name="use" class="form-control" id="state" aria-describedby="emailHelp" required>
+                      <option selected>Please select...</option>
+                      <option value="Yes">Yes</option>
+                      <option value="No">No</option>
+                </select>
+                </div>
+                </div>
+                <!-- Q2 -->
+                <div class="row w-100 m-auto mb-1 mt-1">
+                  <div>
+                    <label for="diagnosed" class="form-label">By using Roundup, have you ever been diagnosed with any medical conditions?</label>
+                    <select type="text" name="diagnosed" class="form-control" id="state" aria-describedby="emailHelp" required>
+                      <option selected>Please select...</option>
+                      <option value="Non-Hodgkin's lymphoma">Non-Hodgkin's lymphoma</option>
+                      <option value="Other lymphoma">Other lymphoma</option>
+                      <option value="Leukemia">Leukemia</option>
+                      <option value="Other cancers">Other cancers</option>
+                      <option value="Other medical conditions">Other medical conditions</option>
+                      <option value="No diagnosis">No diagnosis</option>
+
+                </select>
+                </div>
+                </div>
+                <!-- Q3 -->
+                <div class="row w-100 m-auto mb-1 mt-1">
+                  <div>
+                    <label for="represented" class="form-label">Are you currently being represented by an attorney or a law firm regarding the Roundup lawsuit?</label>
+                    <select type="text" name="represented" class="form-control" id="state" aria-describedby="emailHelp" required>
+                      <option selected>Please select...</option>
+                      <option value="Yes">Yes</option>
+                      <option value="No">No</option>
+                </select>
+                </div>
+                </div>
+
+                <!-- FIRST & LAST NAME -->
+                <div class="row w-100 m-auto mb-1 mt-1">
+                  <div class="col-6 ">
+                    <input type="text" placeholder="First Name" name="First Name" class="form-control" id="firstname" aria-describedby="emailHelp" required>              
+                  </div>
+                  <div class="col-6 ">
+                    <input type="text" placeholder="Last Name" name="Last Name" class="form-control" id="lastname" aria-describedby="emailHelp" required>              
+                  </div>
+                </div>
+                <!-- PHONE NUMBER -->
+                <div class="row w-100 m-auto mb-1 mt-1">
+                  <div >
+                    <input type="number" placeholder="Phone Number" name="Phone Number" class="form-control" id="phonenumber" aria-describedby="emailHelp" required> 
+                  </div>
+                </div>
+                <!-- EMAIL -->
+                <div class="row w-100 m-auto mb-1 mt-1">
+                  <div >
+                    <input type="email" placeholder="Email" name="Email" class="form-control" id="email" aria-describedby="emailHelp" required> 
+                  </div>
+                </div>
+                <!-- ADDRESS -->
+                <div class="row w-100 m-auto mb-1 mt-1">
+                  <div >
+                    <input type="text" placeholder="Address" name="Address" class="form-control" id="address" aria-describedby="emailHelp" required> 
+                  </div>
+                </div>
+                <!-- CITY -->
+                <div class="row w-100 m-auto mb-1 mt-1">
+                  <div >
+                    <input type="text" name="City" placeholder="City" class="form-control" id="city" aria-describedby="emailHelp" required> 
+                  </div>
+                </div>
+                <!-- STATE -->
+                <div class="row w-100 m-auto mb-1 mt-1">
+                  <div>
+                    <select type="text" name="State" class="form-control" id="state" aria-describedby="emailHelp" required>
+                      <option selected>Choose your state...</option>
+                      <option value="AL">AL | Alabama</option>
+                      <option value="AK">AK | Alaska</option>
+                      <option value="AZ">AZ | Arizona</option>
+                      <option value="AR">AR | Arkansas</option>
+                      <option value="CA">CA | California</option>
+                      <option value="CO">CO | Colorado</option>
+                      <option value="CT">CT | Connecticut</option>
+                      <option value="DE">DE | Delaware</option>
+                      <option value="FL">FL | Florida</option>
+                      <option value="GA">GA | Georgia</option>
+                      <option value="HI">HI | Hawaii</option>
+                      <option value="ID">ID | Idaho</option>
+                      <option value="IL">IL | Illinois</option>
+                      <option value="IN">IN | Indiana</option>
+                      <option value="IA">IA | Iowa</option>
+                      <option value="KS">KS | Kansas</option>
+                      <option value="KY">KY | Kentucky</option>
+                      <option value="LA">LA | Louisiana</option>
+                      <option value="ME">ME | Maine</option>
+                      <option value="MD">MD | Maryland</option>
+                      <option value="MA">MA | Massachusetts</option>
+                      <option value="MI">MI | Michigan</option>
+                      <option value="MN">MN | Minnesota</option>
+                      <option value="MS">MS | Mississippi</option>
+                      <option value="MO">MO | Missouri</option>
+                      <option value="MT">MT | Montana</option>
+                      <option value="NE">NE | Nebraska</option>
+                      <option value="NV">NV | Nevada</option>
+                      <option value="NH">NH | New Hampshire</option>
+                      <option value="NJ">NJ | New Jersey</option>
+                      <option value="NM">NM | New Mexico</option>
+                      <option value="NY">NY | New York</option>
+                      <option value="NC">NC | North Carolina</option>
+                      <option value="ND">ND | North Dakota</option>
+                      <option value="OH">OH | Ohio</option>
+                      <option value="OK">OK | Oklahoma</option>
+                      <option value="OR">OR | Oregon</option>
+                      <option value="PA">PA | Pennsylvania</option>
+                      <option value="RI">RI | Rhode Island</option>
+                      <option value="SC">SC | South Carolina</option>
+                      <option value="SD">SD | South Dakota</option>
+                      <option value="TN">TN | Tennessee</option>
+                      <option value="TX">TX | Texas</option>
+                      <option value="UT">UT | Utah</option>
+                      <option value="VT">VT | Vermont</option>
+                      <option value="VA">VA | Virginia</option>
+                      <option value="WA">WA | Washington</option>
+                      <option value="WV">WV | West Virginia</option>
+                      <option value="WI">WI | Wisconsin</option>
+                      <option value="WY">WY | Wyoming</option>
+                      <option value="DC">DC | District of Columbia</option>
+                      <option value="AS">AS | American Samoa</option>
+                      <option value="GU">GU | Guam</option>
+                      <option value="MP">MP | Northern Mariana Islands</option>
+                      <option value="PR">PR | Puerto Rico</option>
+                      <option value="UM">UM | United States Minor Outlying Islands</option>
+                      <option value="VI">VI | Virgin Islands, U.S.</option>
+                </select>
+                </div>
+                </div>
+                <!-- ZIP CODE -->
+                <div class="row w-100 m-auto mb-1 mt-1">
+                  <div >
+                    <input type="number" placeholder="Zip Code" name="Zip code" class="form-control" id="zipcode" aria-describedby="emailHelp" required> 
+                  </div>
+                </div>
+                <!-- TERMS AND CONDITIONS -->
+                <div class="row w-100 m-auto p-4 pb-0 pt-0 mt-3">
+                  <div class="form-check align-items-center">
+                    <p class="">By submitting this form I am providing all the information above is correct and true. My signature to consent to receive marketing calls, from Mass Tort Guardians and their affiliates attorneys at the telephone number provided above. I agree to receive emails, text messages, and phone calls regarding my inquiry, which may be considered advertising material. Emails, text messages, and phone calls may be automatically generated using the information from the above form to better coordinate communication. I understand my consent to this is not necessary to obtain services from Mass Tort Guardians and their affiliates attorneys. I also understand that by submitting this form it does not create an attorney-client relationship.
+                    </p>
+                  </div>
+                </div>
+                <!-- SUBMIT BUTTON -->
+                <div class="row w-100 m-auto p-4 pb-0 mb-1 mt-1">
+                  <button type="submit" class="btn btn-sm m-auto btn-ln">Submit</button>
+                </div>
+                
+              </form>
+              <!-- FORM END -->
+            </div>
+            <div class="col-12 land-pa text-start">
+              <div class="col-12 p-5 mt-5" style="color:#2c3e50">
+              <h3 class="fw-bolder mt- text-center">CALL FOR A FREE CASE REVIEW. </h3>
+              <p class="text-center">949-961-1226</p>
+            </div>
+            </div>
+          <div class="text-center pop-up col-8" id="t_c_popup">
+            <h3 >Terms & Conditions</h3>
+            <p c>
+              By checking this box I am providing all the information above is correct and true. My signature to consent to receive marketing calls, from Mass Tort Guardians and their affiliates attorneys at the telephone number provided above. I agree to receive emails, text messages, and phone calls regarding my inquiry, which may be considered advertising material. Emails, text messages, and phone calls may be automatically generated using the information from the above form to better coordinate communication. I understand my consent to this is not necessary to obtain services from Mass Tort Guardians and their affiliates attorneys. I also understand that by submitting this form it does not create an attorney-client relationship.
+            </p>
+            <a onclick="closepopup()" class="m-auto btn btn-outline btn-sm">Close</a>
+          </div>
+        </div>   
+    </section>
+    <section class="section sec landing-sec w-100" style="background: linear-gradient(rgba(233, 233, 233, 0.9),rgba(233, 233, 233,0.9)),url(../assets/imgs/pattern.jpg); background-repeat:repeat;">
+      <div class="row align-items-center justify-content-between m-auto">
+        <div class="col-6 p-3">
+          <h3 class="fw-bold ">What is roundup?</h3>
+          <p>Roundup is an herbicide that contains glyphosate and is widely used for weed control in agriculture and landscaping. Each year, in the U.S., approximately 250 million pounds of glyphosate are sprayed on crops, commercial nurseries, lawns, driveways, sidewalks, parks, and golf courses.</p>
+        </div>
+        <div class="col-5">
+          <img src="../assets/imgs/weedkiller.webp" width="100%" alt="">
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-between reverse m-auto mt-4">
+        <div class="col-5">
+          <img src="../assets/imgs/ru1.jpg" width="100%" alt="">
+        </div>
+        <div class="col-6 p-3">
+          <h3 class="fw-bold ">What Is Roundup Lawsuit?</h3>
+          <p>The Roundup lawsuit involves legal actions against Bayer AG, the manufacturer of the herbicide Roundup, over allegations that its active ingredient, glyphosate, is linked to an increased risk of cancer, particularly non-Hodgkin's lymphoma. Monsanto, the original manufacturer, faced lawsuits for allegedly failing to adequately warn consumers about the health risks associated with glyphosate. Bayer, which acquired Monsanto in 2018, inherited the litigation. Some lawsuits against Bayer have resulted in significant verdicts, holding the company liable for cancer cases linked to Roundup. The litigation has spurred discussions about the safety and regulatory standards of glyphosate-containing herbicides.</p>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-between  m-auto mt-4">
+        <div class="col-6 p-3">
+          <h3 class="fw-bold ">What's the average payout for Roundup lawsuits?</h3>
+          <p>The Roundup settlement amount is $10.9 billion. Lawyers estimate the average individual Roundup lawsuit payout could be between $5,000 and $250,000, depending on the claimant's injuries. The average settlement amount could be about $160,000 per plaintiff</p>
+        </div>
+        <div class="col-5 ">
+          <img src="../assets/imgs/ru2.jpg" width="100%" alt="">
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-between reverse m-auto mt-4">
+        <div class="col-5">
+          <img src="../assets/imgs/ru3.jpg" width="100%" alt="">
+        </div>
+        <div class="col-6 p-3">
+          <h3 class="fw-bold ">Cancers caused by Roundup</h3>
+          <h4>Exposure to Roundup can also cause following cancer:</h4>
+          <p>
+            Non-Hodgkin's Lymphoma <br>
+            Large B Cell Lymphoma <br>
+            Follicular Lymphoma <br>
+            Mantle Cell Lymphoma <br>
+            Lymphoplasmacytic Lymphoma <br>
+            Mycosis Fungoides Lymphoma <br>
+            Burkitt Lymphoma <br>
+            Small Lymphocytic Lymphoma <br>
+            70+ Other Lymphoma Subtypes</p>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-between m-auto mt-4 mb-5">
+        <div class="col-12 p-3 text-center">
+          <h1 class="fw-bold text-center mb-5 ">Am I Eligible for a Roundup Lawsuit?</h1>
+          <p class="text-center">If you or a loved one, whether living or deceased, have been impacted by the use of Roundup and are considering legal action, we are here to support you. Our team specializes in assisting claimants with Roundup cases, understanding the concerns surrounding glyphosate exposure and its potential health risks. We offer free consultations with absolutely no obligation, providing you the opportunity to discuss your situation, ask questions, and explore your legal options. Your well-being is our priority, and we are committed to offering guidance and support during this process. Reach out to us for a confidential discussion about your Roundup case, and let us help you navigate the complexities of seeking justice.</p>
+          <a href="#form" class="btn btn-sm btn-ln m-auto text-center">Get My Free Lawsuit Case Review</a>
+        </div>
+      </div>
+      <div class="row align-items-start justify-content-between m-auto mt-4">
+        <div class="col-3 landing-card">
+          <div class="p-3 text-center landing-num"><span>1</span></div>
+          
+          <div>
+            <i class="fa-regular fa-file-lines"></i>
+            <h3 class="mt-3 mb-3">Fill Out Our Quick Form</h3>
+            <p>Within hours a member of our team will contact you to start the process.</p>
+          </div>
+        </div>
+        <div class="col-3 landing-card">
+          <div class="p-3 text-center landing-num"><span>2</span></div>
+          <div>
+            <i class="fa-solid fa-handshake-simple"></i>
+            <h3 class="mt-3 mb-3">Get Your Free Legal Consultation</h3>
+            <p>We will walk you through all the information you need to determine your damages and eligibility.  All of your questions will be answered in detail.</p>
+          </div>
+        </div>
+        <div class="col-3 landing-card">
+          <div class="p-3 text-center landing-num"><span>3</span></div>
+          
+          <div>
+            <i class="fa-solid fa-scale-balanced"></i>
+            <h3 class="mt-3 mb-3">Get the Justice You Deserve</h3>
+            <p>You'll be matched with a team of experienced attorneys who have won millions in damages for Roundup lawsuits. They'll be there to support you every step of the way.</p>
+          </div>
+        </div>
+        <a href="#form" class="btn btn-sm btn-ln m-auto text-center mt-5 mb-0">Get My Free Lawsuit Case Review</a>
+
+      </div>
+      
+    </section>   
+
+    <!-- HOME SECTION#2 END -->
+  <!-- FOOTER START -->
+  <section class="row w-100 p-5 m-0" style="background-color:var(--blue2)">
+    <div class="col-5 flex-column m-auto">
+      <a href="../contactus.html" class="btn fw-bold w-100 btn-outline text-light">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- FOOTER END -->
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="../assets/scripts/script.js"></script>
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <script src="../assets/scripts/bootstrap.js"></script>
+</body>
+</html>
