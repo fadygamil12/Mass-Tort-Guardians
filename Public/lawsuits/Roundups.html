@@ -11,7 +11,7 @@
     <span class="loader"><span class="loader-inner"></span></span>
     </div>
     <!-- NAV BAR START -->
-    <section class="prim w-100 p-5" style="position: relative; background: linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)), url(../assets/imgs/roupbanner.jpg);
+    <!-- <section class="prim w-100 p-5" style="position: relative; background: linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)), url(../assets/imgs/roupbanner.jpg);
     background-size: cover; height: 50vh;">
       <div class="row" style="width: fit-content;position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);">
         <div class="col-12 text-center m-auto">
@@ -19,23 +19,40 @@
         </div>
 
     </div>
-    </section>
+    </section> -->
+    <div class="row w-100 p-3 align-items-center justify-content-around landing-nav">
+      <div class="col-4">
+        <img src="../assets/icons/logo.svg" alt="">
+      </div>
+      <div class="col-4">
+        <h3>Questions? Call 949-961-1226</h3>
+      </div>
+    </div>
     <!-- HOME SECTION#1 END -->
     <!-- HOME SECTION#2 START -->
     <section id="form" class="section sec p-0 w-100" style="background: linear-gradient(rgba(233, 233, 233, 0.9),rgba(233, 233, 233,0.9)),url(../assets/imgs/pattern.jpg); background-repeat:repeat;">
       <div class="col-12">
 
-            <div class="clform landing-form col-12 p-5" style="background: linear-gradient(rgba(29, 137, 76,0.85),rgba(29, 137, 76, 0.85)), url(../assets/imgs/roupform.jfif); background-size: cover;">
-              <h3 class="text-center m-0 mb-2 mt-2 under-w" >FREE CONSULTATION</h3>
-              <h3 class="text-center m-0 mb-5 mt-2 " >Start the Process Here to See if you Qualify</h3>
+            <div class="clform landing-form m-auto w-100 col-12 p-5" style="background: linear-gradient(rgba(29, 137, 76,0.3),rgba(29, 137, 76, 0.3)), url(../assets/imgs/roupform.jfif); background-size: cover;">
               
-              <form class="" name="clform" method="post" action="">
+              <!-- <h3 class="text-light text-center m-0 mb-5" style="font-family: Playpen Sans; font-size: 1.5rem;">no obligation or cost to you</h3> -->
+              <!-- --------------FORM START--------------------- -->
+
+              <form class="p-5 col-md-8 bg-light rounded m-auto" name="clform" method="post" action="">
+                <!-- HEAD OF THE FORM -->
+                <h3 class="text-center m-0 mb-2 under">FREE CONSULTATION</h3>
+                <h3 class="text-center m-0 mb-5 ">Start the Process Here to See if you Qualify</h3>
+                <!-- HEAD OF THE FORM -->
+                <!-- MESSAGE -->
                 <div id="msgmsg" class=" text-center m-auto w-100">
                   <h3 class="fw-bolder">Sumbited</h3>
                 </div>
+                <!-- MESSAGE -->
+
+                <!-- Q1 -->
                 <div class="row w-100 m-auto mb-1 mt-1">
                   <div>
-                    <label for="use" class="text-light form-label">Did You or a Loved One Use the Popular Grass/Weed Killer Roundup?</label>
+                    <label for="use" class="form-label">Did You or a Loved One Use the Popular Grass/Weed Killer Roundup?</label>
                     <select type="text" name="use" class="form-control" id="state" aria-describedby="emailHelp" required>
                       <option selected>Please select...</option>
                       <option value="Yes">Yes</option>
@@ -43,9 +60,10 @@
                 </select>
                 </div>
                 </div>
+                <!-- Q2 -->
                 <div class="row w-100 m-auto mb-1 mt-1">
                   <div>
-                    <label for="diagnosed" class="text-light form-label">By using Roundup, have you ever been diagnosed with any medical conditions?</label>
+                    <label for="diagnosed" class="form-label">By using Roundup, have you ever been diagnosed with any medical conditions?</label>
                     <select type="text" name="diagnosed" class="form-control" id="state" aria-describedby="emailHelp" required>
                       <option selected>Please select...</option>
                       <option value="Non-Hodgkin's lymphoma">Non-Hodgkin's lymphoma</option>
@@ -58,9 +76,10 @@
                 </select>
                 </div>
                 </div>
+                <!-- Q3 -->
                 <div class="row w-100 m-auto mb-1 mt-1">
                   <div>
-                    <label for="represented" class="text-light form-label">Are you currently being represented by an attorney or a law firm regarding the Roundup lawsuit?</label>
+                    <label for="represented" class="form-label">Are you currently being represented by an attorney or a law firm regarding the Roundup lawsuit?</label>
                     <select type="text" name="represented" class="form-control" id="state" aria-describedby="emailHelp" required>
                       <option selected>Please select...</option>
                       <option value="Yes">Yes</option>
@@ -68,43 +87,43 @@
                 </select>
                 </div>
                 </div>
+
+                <!-- FIRST & LAST NAME -->
                 <div class="row w-100 m-auto mb-1 mt-1">
                   <div class="col-6 ">
-                    <label for="firstname" class="text-light form-label">First Name</label>
-                    <input type="text" name="First Name" class="form-control" id="firstname" aria-describedby="emailHelp" required>              
+                    <input type="text" placeholder="First Name" name="First Name" class="form-control" id="firstname" aria-describedby="emailHelp" required>              
                   </div>
                   <div class="col-6 ">
-                    <label for="lastname" class="text-light form-label">Last Name</label>
-                    <input type="text" name="Last Name" class="form-control" id="lastname" aria-describedby="emailHelp" required>              
+                    <input type="text" placeholder="Last Name" name="Last Name" class="form-control" id="lastname" aria-describedby="emailHelp" required>              
                   </div>
                 </div>
+                <!-- PHONE NUMBER -->
                 <div class="row w-100 m-auto mb-1 mt-1">
                   <div >
-                    <label for="phonenumber" class="text-light form-label">Phone number</label>
-                    <input type="number" name="Phone Number" class="form-control" id="phonenumber" aria-describedby="emailHelp" required> 
+                    <input type="number" placeholder="Phone Number" name="Phone Number" class="form-control" id="phonenumber" aria-describedby="emailHelp" required> 
                   </div>
                 </div>
+                <!-- EMAIL -->
                 <div class="row w-100 m-auto mb-1 mt-1">
                   <div >
-                    <label for="email" class="text-light form-label">Email</label>
-                    <input type="email" name="Email" class="form-control" id="email" aria-describedby="emailHelp" required> 
+                    <input type="email" placeholder="Email" name="Email" class="form-control" id="email" aria-describedby="emailHelp" required> 
                   </div>
                 </div>
+                <!-- ADDRESS -->
                 <div class="row w-100 m-auto mb-1 mt-1">
                   <div >
-                    <label for="address" class="text-light form-label">Address</label>
-                    <input type="text" name="Address" class="form-control" id="address" aria-describedby="emailHelp" required> 
+                    <input type="text" placeholder="Address" name="Address" class="form-control" id="address" aria-describedby="emailHelp" required> 
                   </div>
                 </div>
+                <!-- CITY -->
                 <div class="row w-100 m-auto mb-1 mt-1">
                   <div >
-                    <label for="city" class="text-light form-label">City</label>
-                    <input type="text" name="City" class="form-control" id="city" aria-describedby="emailHelp" required> 
+                    <input type="text" name="City" placeholder="City" class="form-control" id="city" aria-describedby="emailHelp" required> 
                   </div>
                 </div>
+                <!-- STATE -->
                 <div class="row w-100 m-auto mb-1 mt-1">
                   <div>
-                    <label for="email" class="text-light form-label">State</label>
                     <select type="text" name="State" class="form-control" id="state" aria-describedby="emailHelp" required>
                       <option selected>Choose your state...</option>
                       <option value="AL">AL | Alabama</option>
@@ -167,24 +186,26 @@
                 </select>
                 </div>
                 </div>
+                <!-- ZIP CODE -->
                 <div class="row w-100 m-auto mb-1 mt-1">
                   <div >
-                    <label for="zipcode" class="text-light form-label">Zip code</label>
-                    <input type="number" name="Zip code" class="form-control" id="zipcode" aria-describedby="emailHelp" required> 
+                    <input type="number" placeholder="Zip Code" name="Zip code" class="form-control" id="zipcode" aria-describedby="emailHelp" required> 
                   </div>
                 </div>
+                <!-- TERMS AND CONDITIONS -->
                 <div class="row w-100 m-auto p-4 pb-0 pt-0 mt-3">
-                      <div class="form-check align-items-center">
-                        <p class="text-light">By submitting this form I am providing all the information above is correct and true. My signature to consent to receive marketing calls, from Mass Tort Guardians and their affiliates attorneys at the telephone number provided above. I agree to receive emails, text messages, and phone calls regarding my inquiry, which may be considered advertising material. Emails, text messages, and phone calls may be automatically generated using the information from the above form to better coordinate communication. I understand my consent to this is not necessary to obtain services from Mass Tort Guardians and their affiliates attorneys. I also understand that by submitting this form it does not create an attorney-client relationship.
-                        </p>
-                      </div>
+                  <div class="form-check align-items-center">
+                    <p class="">By submitting this form I am providing all the information above is correct and true. My signature to consent to receive marketing calls, from Mass Tort Guardians and their affiliates attorneys at the telephone number provided above. I agree to receive emails, text messages, and phone calls regarding my inquiry, which may be considered advertising material. Emails, text messages, and phone calls may be automatically generated using the information from the above form to better coordinate communication. I understand my consent to this is not necessary to obtain services from Mass Tort Guardians and their affiliates attorneys. I also understand that by submitting this form it does not create an attorney-client relationship.
+                    </p>
+                  </div>
                 </div>
-                
+                <!-- SUBMIT BUTTON -->
                 <div class="row w-100 m-auto p-4 pb-0 mb-1 mt-1">
-                  <button type="submit" class="btn bg-light">Submit</button>
+                  <button type="submit" class="btn btn-sm m-auto btn-ln">Submit</button>
                 </div>
                 
               </form>
+              <!-- FORM END -->
             </div>
             <div class="col-12 land-pa text-start">
               <div class="col-12 p-5 mt-5" style="color:#2c3e50">
@@ -192,6 +213,13 @@
               <p class="text-center">949-961-1226</p>
             </div>
             </div>
+          <div class="text-center pop-up col-8" id="t_c_popup">
+            <h3 >Terms & Conditions</h3>
+            <p c>
+              By checking this box I am providing all the information above is correct and true. My signature to consent to receive marketing calls, from Mass Tort Guardians and their affiliates attorneys at the telephone number provided above. I agree to receive emails, text messages, and phone calls regarding my inquiry, which may be considered advertising material. Emails, text messages, and phone calls may be automatically generated using the information from the above form to better coordinate communication. I understand my consent to this is not necessary to obtain services from Mass Tort Guardians and their affiliates attorneys. I also understand that by submitting this form it does not create an attorney-client relationship.
+            </p>
+            <a onclick="closepopup()" class="m-auto btn btn-outline btn-sm">Close</a>
+          </div>
         </div>   
     </section>
     <section class="section sec landing-sec w-100" style="background: linear-gradient(rgba(233, 233, 233, 0.9),rgba(233, 233, 233,0.9)),url(../assets/imgs/pattern.jpg); background-repeat:repeat;">
@@ -283,7 +311,11 @@
 
     <!-- HOME SECTION#2 END -->
   <!-- FOOTER START -->
-  <ls-footer></ls-footer>
+  <section class="row w-100 p-5 m-0" style="background-color:var(--blue2)">
+    <div class="col-5 flex-column m-auto">
+      <a href="../contactus.html" class="btn fw-bold w-100 btn-outline text-light">Contact Us</a>
+    </div>
+  </section>
 
   <!-- FOOTER END -->
   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>

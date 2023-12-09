@@ -248,6 +248,7 @@
     transition: ease;
     transition: 0.5s;
 }
+/* LANDING FORM */
 .clform{
     margin: auto;
     margin-top: 0;
@@ -257,8 +258,8 @@
     background-color:#10ac84;
 }
 .landing-form h3{
-    font-size: 3rem;
-    color: lightgoldenrodyellow;
+    font-size: 2rem;
+    color: darkgreen;
     font-weight: 700;
 }
 
@@ -274,38 +275,16 @@
 
 .landing-form p{
     font-size: 1rem;
-}
-
-
-
-
-.landing-form2 h3{
-    font-size: 2rem;
-    color: darkgreen;
-    font-weight: 700;
-}
-
-.landing-form2 input{
-    margin-bottom: 1rem;
-}
-.landing-form2 select{
-    margin-bottom: 1rem;
-}
-.landing-form2 label{
-    font-size: 1.3rem;
-}
-
-.landing-form2 p{
-    font-size: 1rem;
     color: darkgreen;
 }
-.landing-form2{
+.landing-form{
     padding: 2rem;
 }
-.landing-form2 label{
+.landing-form label{
     color: darkgreen;
     font-size: 1.3rem;
 }
+/* LANDING NAV */
 .landing-nav img{
     width: 40%;
 
