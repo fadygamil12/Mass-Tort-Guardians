@@ -2,11 +2,11 @@
 <html lang="en">
   <script type=module src="../assets/scripts/modules.js"></script>
   <head>
-    <title>Roundup</title>
+    <title>Camp lejeune</title>
     <link rel="icon" type="image/x-icon" href="../assets/icons/logo.ico">
   </head>
   <ls-head></ls-head>
-<body class="overflowx-hidden">
+<body style="font-family: Dosis;">
   <div class="loader-wrapper">
     <span class="loader"><span class="loader-inner"></span></span>
     </div>
@@ -33,57 +33,72 @@
     <section id="form" class="section sec p-0 w-100" style="background: linear-gradient(rgba(233, 233, 233, 0.9),rgba(233, 233, 233,0.9)),url(../assets/imgs/pattern.jpg); background-repeat:repeat;">
       <div class="col-12">
 
-            <div class="clform landing-form m-auto w-100 col-12 p-5" style="background: linear-gradient(rgba(29, 137, 76,0.3),rgba(29, 137, 76, 0.3)), url(../assets/imgs/roupform.jfif); background-size: cover;">
+            <div class="clform landing-form m-auto w-100 col-12 p-5" style="background: linear-gradient(rgba(29, 137, 76,0.3),rgba(29, 137, 76, 0.3)), url(../assets/imgs/cl2.jfif); background-size: cover;">
               
               <!-- <h3 class="text-light text-center m-0 mb-5" style="font-family: Playpen Sans; font-size: 1.5rem;">no obligation or cost to you</h3> -->
               <!-- --------------FORM START--------------------- -->
 
-              <form class="p-5 col-md-8 bg-light rounded m-auto" name="clform" method="post" action="">
+              <form class="p-5 col-md-8 bg-light rounded m-auto"  name="clform" method="post" action="">
                 <!-- HEAD OF THE FORM -->
-                <h3 class="text-center m-0 mb-2 under">FREE CONSULTATION</h3>
-                <h3 class="text-center m-0 mb-5 ">Start the Process Here to See if you Qualify</h3>
+                <h3 class="text-center m-0 mb-2 under fw-bolder">FREE CONSULTATION</h3>
+                <h3 class="text-center m-0 mb-5 fw-bolder">Start the Process Here to See if you Qualify</h3>
                 <!-- HEAD OF THE FORM -->
                 <!-- MESSAGE -->
                 <div id="msgmsg" class=" text-center m-auto w-100">
-                  <h3 class="fw-bolder">Sumbited</h3>
+                  <h3 class="fw-bolder text-light" style="font-family: Anton;">Sumbited</h3>
                 </div>
                 <!-- MESSAGE -->
 
                 <!-- Q1 -->
                 <div class="row w-100 m-auto mb-1 mt-1">
                   <div>
-                    <label for="loved one" class="form-label">Did You or a Loved One Use the Popular Grass/Weed Killer Roundup?</label>
-                    <select type="text" name="loved one" class="form-control" id="state" aria-describedby="emailHelp" required>
+                    <label for="loved one" class="form-label">Were you or a loved one stationed, worked, or lived at Marine Corps Base Camp Lejeune or MCAS New River?</label>
+                    <select type="text" name="loved one" class="form-control" id="state" required>
                       <option selected>Please select...</option>
-                      <option value="Yes">Yes</option>
-                      <option value="No">No</option>
+                      <option value="Myself">Myself</option>
+                      <option value="Myself & family member(s)">Myself and family member(s)</option>
+                      <option value="Family member(s)">Family member(s)</option>
+                      <option value="Friend or Other Non-Relative">Friend or Other Non-Relative</option>
                 </select>
                 </div>
                 </div>
                 <!-- Q2 -->
                 <div class="row w-100 m-auto mb-1 mt-1">
                   <div>
-                    <label for="diagnosed" class="form-label">By using Roundup, have you ever been diagnosed with any medical conditions?</label>
-                    <select type="text" name="diagnosed" class="form-control" id="state" aria-describedby="emailHelp" required>
+                    <label for="Years at camp lejeune" class="form-label">Years at Camp Lejeune?</label>
+                    <select type="text" name="Years at camp lejeune" class="form-control" id="state" aria-describedby="emailHelp" required>
                       <option selected>Please select...</option>
-                      <option value="Non-Hodgkin's lymphoma">Non-Hodgkin's lymphoma</option>
-                      <option value="Other lymphoma">Other lymphoma</option>
-                      <option value="Leukemia">Leukemia</option>
-                      <option value="Other cancers">Other cancers</option>
-                      <option value="Other medical conditions">Other medical conditions</option>
-                      <option value="No diagnosis">No diagnosis</option>
-
+                      <option value="Before 1953">Before 1953</option>
+                      <option value="Between 1953 and 1987">Between 1953 and 1987</option>
+                      <option value="After 1987">After 1987</option>
+                      <option value="Unsure">Unsure</option>
                 </select>
                 </div>
                 </div>
                 <!-- Q3 -->
                 <div class="row w-100 m-auto mb-1 mt-1">
                   <div>
-                    <label for="represented" class="form-label">Are you currently being represented by an attorney or a law firm regarding the Roundup lawsuit?</label>
-                    <select type="text" name="represented" class="form-control" id="state" aria-describedby="emailHelp" required>
+                    <label for="There for at least 30 days?" class="form-label">There for at least 30 days?</label>
+                    <select type="text" name="There for at least 30 days?" class="form-control" id="state" aria-describedby="emailHelp" required>
                       <option selected>Please select...</option>
                       <option value="Yes">Yes</option>
                       <option value="No">No</option>
+                      <option value="Unsure">Unsure</option>
+                </select>
+                </div>
+                </div>
+                <!-- Q4 -->
+                <div class="row w-100 m-auto mb-1 mt-1">
+                  <div>
+                    <label for="Diagnosed" class="form-label">Diagnosed with any medical conditions?</label>
+                    <select type="text" name="Diagnosed" class="form-control" id="state" aria-describedby="emailHelp" required>
+                      <option selected>Please select...</option>
+                      <option value="Cancer">Cancer</option>
+                      <option value="Neurobehavioural Effects">Neurobehavioural Effects</option>
+                      <option value="Reproductive Health Issues">Reproductive Health Issues</option>
+                      <option value="Autoimmune Deficiencies">Autoimmune Deficiencies</option>
+                      <option value="Other medical conditions">Other medical conditions</option>
+                      <option value="No Medical Conditions">No Medical Conditions</option>  
                 </select>
                 </div>
                 </div>
@@ -213,44 +228,42 @@
               <p class="text-center">949-961-1226</p>
             </div>
             </div>
-          <div class="text-center pop-up col-8" id="t_c_popup">
-            <h3 >Terms & Conditions</h3>
-            <p c>
-              By checking this box I am providing all the information above is correct and true. My signature to consent to receive marketing calls, from Mass Tort Guardians and their affiliates attorneys at the telephone number provided above. I agree to receive emails, text messages, and phone calls regarding my inquiry, which may be considered advertising material. Emails, text messages, and phone calls may be automatically generated using the information from the above form to better coordinate communication. I understand my consent to this is not necessary to obtain services from Mass Tort Guardians and their affiliates attorneys. I also understand that by submitting this form it does not create an attorney-client relationship.
-            </p>
-            <a onclick="closepopup()" class="m-auto btn btn-outline btn-sm">Close</a>
-          </div>
         </div>   
     </section>
     <section class="section sec landing-sec w-100" style="background: linear-gradient(rgba(233, 233, 233, 0.9),rgba(233, 233, 233,0.9)),url(../assets/imgs/pattern.jpg); background-repeat:repeat;">
       <div class="row align-items-center justify-content-between m-auto">
         <div class="col-6 p-3">
-          <h3 class="fw-bold ">What is roundup?</h3>
-          <p>Roundup is an herbicide that contains glyphosate and is widely used for weed control in agriculture and landscaping. Each year, in the U.S., approximately 250 million pounds of glyphosate are sprayed on crops, commercial nurseries, lawns, driveways, sidewalks, parks, and golf courses.</p>
+          <h3 class="fw-bold ">What is camp Lejeune?</h3>
+          <p>Camp Lejeune is a United States Marine Corps military base located in Jacksonville, North Carolina. Established in 1941, it serves as a major Marine Corps installation and has been an integral part of various military operations. The base is named after Lieutenant General John A. Lejeune, the 13th Commandant of the Marine Corps.
+            Over the years, Camp Lejeune has played a crucial role in training, deploying, and supporting Marine Corps units. It encompasses a large area and includes facilities for housing, training, and administration.
+            One significant aspect associated with Camp Lejeune is the issue of water contamination. From the 1950s through the 1980s, the base's water supply was contaminated with various toxic chemicals, leading to health issues for military personnel, their families, and civilian workers stationed at the base. This contamination has resulted in legal actions and discussions about the responsibility of the government in addressing the health concerns of those affected.</p>
         </div>
         <div class="col-5">
-          <img src="../assets/imgs/weedkiller.webp" width="100%" alt="">
+          <img src="../assets/imgs/cl3.jfif" width="100%" alt="">
         </div>
       </div>
       <div class="row align-items-center justify-content-between reverse m-auto mt-4">
         <div class="col-5">
-          <img src="../assets/imgs/ru1.jpg" width="100%" alt="">
+          <img src="../assets/imgs/cl1.jfif" width="100%" alt="">
         </div>
         <div class="col-6 p-3">
-          <h3 class="fw-bold ">What Is Roundup Lawsuit?</h3>
-          <p>The Roundup lawsuit involves legal actions against Bayer AG, the manufacturer of the herbicide Roundup, over allegations that its active ingredient, glyphosate, is linked to an increased risk of cancer, particularly non-Hodgkin's lymphoma. Monsanto, the original manufacturer, faced lawsuits for allegedly failing to adequately warn consumers about the health risks associated with glyphosate. Bayer, which acquired Monsanto in 2018, inherited the litigation. Some lawsuits against Bayer have resulted in significant verdicts, holding the company liable for cancer cases linked to Roundup. The litigation has spurred discussions about the safety and regulatory standards of glyphosate-containing herbicides.</p>
+          <h3 class="fw-bold ">What is camp Lejeune lawsuit?</h3>
+          <p>The Camp Lejeune lawsuit refers to legal actions brought against the United States government and associated entities, particularly the Department of Defense and the Marine Corps, for environmental contamination at the Camp Lejeune military base in North Carolina. The contamination primarily involved water sources tainted with toxic chemicals.
+            The contamination at Camp Lejeune occurred over several decades, starting in August 1953 and continuing until December 1987. It exposed military personnel, their families, and civilian workers to harmful chemicals linked to various health issues, including cancer and other serious illnesses. The lawsuits allege that the government failed to adequately address and disclose the contamination, resulting in health problems for those who lived and worked at the base.
+            Individuals affected by the Camp Lejeune water contamination have filed lawsuits seeking compensation for medical expenses, pain and suffering, and other damages resulting from exposure to the toxic substances. These legal actions underscore the complex issues surrounding environmental contamination on military bases and the responsibilities of the government in ensuring the safety and well-being of military personnel and their families.</p>
         </div>
       </div>
       <div class="row align-items-center justify-content-between  m-auto mt-4">
         <div class="col-6 p-3">
-          <h3 class="fw-bold ">What's the average payout for Roundup lawsuits?</h3>
-          <p>The Roundup settlement amount is $10.9 billion. Lawyers estimate the average individual Roundup lawsuit payout could be between $5,000 and $250,000, depending on the claimant's injuries. The average settlement amount could be about $160,000 per plaintiff</p>
+          <h3 class="fw-bold ">What's the average payout for Camp Lejeune lawsuits?</h3>
+          <p>Camp Lejeune Water Contamination Settlement Amounts and Payouts 2023. Camp Lejeune water contamination settlement amounts from a Camp Lejeune lawsuit could range from well over $1.3 million to as low as $100,000. Camp Lejeune lawsuit settlement payouts for contaminated water exposure are estimated to be over $21 billion.
+          </p>
         </div>
         <div class="col-5 ">
-          <img src="../assets/imgs/ru2.jpg" width="100%" alt="">
+          <img src="../assets/imgs/cl4.jfif" width="100%" alt="">
         </div>
       </div>
-      <div class="row align-items-center justify-content-between reverse m-auto mt-4">
+      <!-- <div class="row align-items-center justify-content-between reverse m-auto mt-4">
         <div class="col-5">
           <img src="../assets/imgs/ru3.jpg" width="100%" alt="">
         </div>
@@ -268,11 +281,11 @@
             Small Lymphocytic Lymphoma <br>
             70+ Other Lymphoma Subtypes</p>
         </div>
-      </div>
+      </div> -->
       <div class="row align-items-center justify-content-between m-auto mt-4 mb-5">
         <div class="col-12 p-3 text-center">
-          <h1 class="fw-bold text-center mb-5 ">Am I Eligible for a Roundup Lawsuit?</h1>
-          <p class="text-center">If you or a loved one, whether living or deceased, have been impacted by the use of Roundup and are considering legal action, we are here to support you. Our team specializes in assisting claimants with Roundup cases, understanding the concerns surrounding glyphosate exposure and its potential health risks. We offer free consultations with absolutely no obligation, providing you the opportunity to discuss your situation, ask questions, and explore your legal options. Your well-being is our priority, and we are committed to offering guidance and support during this process. Reach out to us for a confidential discussion about your Roundup case, and let us help you navigate the complexities of seeking justice.</p>
+          <h1 class="fw-bold text-center mb-5 ">Am I Eligible for a Camp lejeune Lawsuit?</h1>
+          <p class="text-center">If you or a loved one, whether living or deceased, have been impacted by the Camp Lejeune water contamination and are seeking guidance on potential legal recourse, we're here to help. Our team specializes in assisting claimants with Camp Lejeune cases, understanding the complexities involved. We offer free consultations with absolutely no obligation, providing you the opportunity to discuss your situation, ask questions, and explore your options. Your well-being is our priority, and we are committed to offering support and insight during this challenging time. Reach out to us for a confidential discussion about your Camp Lejeune case, and let us guide you through the process.</p>
           <a href="#form" class="btn btn-sm btn-ln m-auto text-center">Get My Free Lawsuit Case Review</a>
         </div>
       </div>

@@ -3,10 +3,10 @@
     --blue2 : #162542;
     --gold : #96875C;
 }
-* {
-    
+body{
     font-family: "Lato";
 }
+
 .blue1{
     
     color:var(--blue1)
