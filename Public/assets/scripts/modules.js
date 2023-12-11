@@ -169,7 +169,7 @@ class Lawsuitsnav extends HTMLElement{
     this.innerHTML=`
     <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="../">
         <img src="../assets/icons/logo.svg" width="70%" alt="">
       </a>
       <div class="col-4"></div>
