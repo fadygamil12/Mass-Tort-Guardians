@@ -6,7 +6,7 @@ class MainFooter extends HTMLElement{
         <div class="col-5 flex-column ">
           <img src="assets/icons/logow.svg" width="250" height="100" alt="">
           <a href="" class="btn fw-bold w-100 mb-2 mt-5 text-light" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/maxwillie/30-mins-meeting'});return false;">Schedule time with me</a>
-          <a href="./contactus" class="btn fw-bold w-100 btn-outline text-light">Contact Us</a>
+          <a href="./contactaaaa" class="btn fw-bold w-100 btn-outline text-light">Contact Us</a>
           
         </div>
         <div class="col-3">
