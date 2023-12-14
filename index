@@ -23,19 +23,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ">
             <li class="nav-item ms-2">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index">Home</a>
             </li>
             <li class="nav-item ms-2">
-              <a class="nav-link" href="about.html">About Us</a>
+              <a class="nav-link" href="about">About Us</a>
             </li>
             <li class="nav-item ms-2">
-              <a class="nav-link" href="masstortlawsuits.html">Mass Tort Lawsuits</a>
+              <a class="nav-link" href="masstortlawsuits">Mass Tort Lawsuits</a>
             </li>
             <li class="nav-item ms-2">
-              <a class="nav-link" href="lawfirms.html">Law Firms</a>
+              <a class="nav-link" href="lawfirms">Law Firms</a>
             </li>
             <li class="nav-item ms-2">
-              <a class="nav-link" href="contactus.html">Contact Us</a>
+              <a class="nav-link" href="contactus">Contact Us</a>
             </li>
           </ul>
         </div>
