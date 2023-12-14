@@ -6,7 +6,7 @@ class MainFooter extends HTMLElement{
         <div class="col-5 flex-column ">
           <img src="assets/icons/logow.svg" width="250" height="100" alt="">
           <a href="" class="btn fw-bold w-100 mb-2 mt-5 text-light" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/maxwillie/30-mins-meeting'});return false;">Schedule time with me</a>
-          <a href="./contactus.html" class="btn fw-bold w-100 btn-outline text-light">Contact Us</a>
+          <a href="./contactus" class="btn fw-bold w-100 btn-outline text-light">Contact Us</a>
           
         </div>
         <div class="col-3">
@@ -43,7 +43,7 @@ class LawsuitsFooter extends HTMLElement{
     <div class="col-5 flex-column ">
       <img src="../assets/icons/logow.svg" width="250" height="100" alt="">
       <a href="" class="btn fw-bold w-100 mb-2 mt-5 text-light" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/maxwillie/30-mins-meeting'});return false;">Schedule time with me</a>
-      <a href="../contactus.html" class="btn fw-bold w-100 btn-outline text-light">Contact Us</a>
+      <a href="../contactus" class="btn fw-bold w-100 btn-outline text-light">Contact Us</a>
       
     </div>
     <div class="col-3">
@@ -182,16 +182,16 @@ class Lawsuitsnav extends HTMLElement{
             <a class="nav-link " aria-current="page" href="../index.html">Home</a>
           </li>
           <li class="nav-item ms-2">
-            <a class="nav-link" href="../about.html">About Us</a>
+            <a class="nav-link" href="../about">About Us</a>
           </li>
           <li class="nav-item ms-2">
-            <a class="nav-link active" href="../masstortlawsuits.html">Mass Tort Lawsuits</a>
+            <a class="nav-link active" href="../masstortlawsuits">Mass Tort Lawsuits</a>
           </li>
           <li class="nav-item ms-2">
-            <a class="nav-link " href="../lawfirms.html">Law Firms</a>
+            <a class="nav-link " href="../lawfirms">Law Firms</a>
           </li>
           <li class="nav-item ms-2">
-            <a class="nav-link " href="../contactus.html">Contact Us</a>
+            <a class="nav-link " href="../contactus">Contact Us</a>
           </li>
         </ul>
       </div>

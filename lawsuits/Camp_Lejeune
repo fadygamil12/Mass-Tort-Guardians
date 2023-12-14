@@ -29,7 +29,7 @@
       <p class="text-light">Water contamination at the Camp Lejeune military base, located in North Carolina and operated by the Marine Corps, has resulted in significant health consequences for over a million veterans, their families, and on-site workers. The water source was contaminated with hazardous substances such as Trichloroethylene (TCE), Perchloroethylene (PCE), benzene, among others, prompting numerous legal actions against those deemed responsible. This contamination, dating back to the 1950s, has led to a range of serious health issues, including various forms of cancer and neurological disorders like Parkinson's disease.</p>
      </div>
      <div class="homebutton">
-      <a href="../masstortlawsuits.html">Main page</a>
+      <a href="../masstortlawsuits">Main page</a>
       </div>
     </section>
     <section class="section lawsuit sec w-100" style="position: relative; background: linear-gradient(rgba(4,9,30,0.95),rgba(11, 21, 59, 0.95)), url(../assets/imgs/camp-lejeune.jpg); background-size: cover;">

@@ -29,7 +29,7 @@
       <p class="text-light">Currently, legal actions are underway against Johnson & Johnson and prominent retailers offering generic acetaminophen items, including Walmart, CVS, and Costco. These lawsuits assert claims of negligence and the failure to adequately caution the public about potential hazards associated with consuming Tylenol during pregnancy. Specifically, they establish a connection between prenatal exposure to acetaminophen and a heightened risk of autism spectrum disorder (ASD) and attention-deficit/hyperactivity disorder (ADHD) in children.</p>
      </div>
      <div class="homebutton">
-      <a href="../masstortlawsuits.html">Main page</a>
+      <a href="../masstortlawsuits">Main page</a>
       </div>
     </section>
     <section class="section lawsuit sec w-100" style="position: relative; background: linear-gradient(rgba(4,9,30,0.95),rgba(11, 21, 59, 0.95)), url(../assets/imgs/Tylenol_Autism2.jpg); background-size: cover;">

@@ -5,6 +5,7 @@
     <title>Law suits</title>
     <link rel="icon" type="image/x-icon" href="./assets/icons/logo.ico">
   </head>
+
   <ls-head></ls-head>
   <body class="overflowx-hidden">
     <div class="loader-wrapper">
@@ -22,31 +23,28 @@
     </section>
     <!-- HOME SECTION#1 END -->
     <!-- HOME SECTION#2 START -->
-    <section class="section lawsuit sec w-100" style=" background: linear-gradient(rgba(4,9,30,0.95),rgba(11, 21, 59, 0.95)), url(../assets/imgs/paraquat-herbicide.png);
+    <section class="section lawsuit sec w-100" style=" background: linear-gradient(rgba(4,9,30,0.95),rgba(11, 21, 59, 0.95)), url(../assets/imgs/talcumpowder.jpg);
     background-size: cover;">
      <div class="col-6">
-      <h3 class="fw-bolder text-light">Paraquat</h3>
-      <p class="text-light">Paraquat, an herbicide employed in agriculture since the 1960s for weed control, has in recent times been associated with a higher likelihood of Parkinson's disease. While the herbicide has faced prohibitions in the European Union, China, and various other nations, it remains extensively utilized in the United States.</p>
+      <h3 class="fw-bolder text-light">Talcum Powder</h3>
+      <p class="text-light">Recent product liability litigation has brought talcum powder lawsuits to the forefront, aiming to hold manufacturers accountable for purportedly neglecting to communicate health risks linked to talc products. These lawsuits, spanning all 50 states, claim a correlation between talc-based products and different types of cancer.</p>
      </div>
      <div class="homebutton">
-      <a href="../masstortlawsuits.html">Main page</a>
+      <a href="../masstortlawsuits">Main page</a>
       </div>
     </section>
-    <section class="section lawsuit sec w-100" style="position: relative; background: linear-gradient(rgba(4,9,30,0.95),rgba(11, 21, 59, 0.95)), url(../assets/imgs/paraquat-herbicide.png
-    ); background-size: cover;">
+    <section class="section lawsuit sec w-100" style="position: relative; background: linear-gradient(rgba(4,9,30,0.95),rgba(11, 21, 59, 0.95)), url(../assets/imgs/talcumpowder.jpg); background-size: cover;">
       <div class="col-6">
-       <h3 class="fw-bolder text-light">Paraquat Client Acquisition Example Criteria:</h3>
-       <p class="text-light">1- At least 8 days of exposure to Paraquat via work or residence on a commercial farm
-        <br>2- Subsequently diagnosed with Parkinson’s disease
-        <br>3- PQ exposure and Parkinson’s diagnosis occurred in the United States
-        <br>4- Latency period of at least 5-7 years preferred between first exposure and diagnosis
-        <br>5- No current legal representation
-        
-        
+       <h3 class="fw-bolder text-light">Talcum Powder Client Acquisition Example Criteria:</h3>
+       <p class="text-light">1- Females only
+        <br>2- Daily use of talcum powder in the genital area for at least 4 years
+        <br>3- Diagnosed with Ovarian, Fallopian Tube, or Primary Peritoneal cancer
+        <br>4- 15-year latency period between first use and diagnosis
+        <br>5- No dx occurring before age 21 or after age 75
+        <br>6- No current legal representation
         
         </p>
       </div>
-
      </section>
     
     <!-- HOME SECTION#2 END -->

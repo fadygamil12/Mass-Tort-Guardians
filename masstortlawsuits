@@ -23,19 +23,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ">
             <li class="nav-item ms-2">
-              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              <a class="nav-link " aria-current="page" href="index">Home</a>
             </li>
             <li class="nav-item ms-2">
-              <a class="nav-link" href="about.html">About Us</a>
+              <a class="nav-link" href="about">About Us</a>
             </li>
             <li class="nav-item ms-2">
-              <a class="nav-link active" href="masstortlawsuits.html">Mass Tort Lawsuits</a>
+              <a class="nav-link active" href="masstortlawsuits">Mass Tort Lawsuits</a>
             </li>
             <li class="nav-item ms-2">
-              <a class="nav-link " href="lawfirms.html">Law Firms</a>
+              <a class="nav-link " href="lawfirms">Law Firms</a>
             </li>
             <li class="nav-item ms-2">
-              <a class="nav-link " href="contactus.html">Contact Us</a>
+              <a class="nav-link " href="contactus">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -64,7 +64,7 @@
             <h5 class="cardstext text-start m-0 mb-2">
               Numerous military service members and veterans have filed lawsuits against 3M, alleging that the company's earplugs were faulty and resulted in hearing damage due to exposure to loud sounds during military activities.
             </h5>
-            <a href="./lawsuits/3mearplugs.html" class="card-btn rounded-5 btn-sm btn  mt-3">Learn More</a>
+            <a href="./lawsuits/3mearplugs" class="card-btn rounded-5 btn-sm btn  mt-3">Learn More</a>
           </div>
           <div class="col-2"></div>
           <div class="col-5 cards p-3 text-start mb-5">
@@ -73,7 +73,7 @@
             <h5 class="cardstext text-start m-0 mb-2">
               The firefighting foam, officially termed Aqueous Film-Forming Foam (AFFF), has become a subject of increasing legal disputes.
             </h5>
-            <a href="./lawsuits/AFFF.html" class="card-btn btn-sm btn rounded-5  mt-3">Learn More</a>
+            <a href="./lawsuits/AFFF" class="card-btn btn-sm btn rounded-5  mt-3">Learn More</a>
           </div>
         </div>
         <div class="row rowwm align-items-center ">
@@ -83,7 +83,7 @@
             <h5 class="cardstext text-start m-0 mb-2">
               Water contamination at the Camp Lejeune military base, located in North Carolina and operated by the Marine Corps, has resulted in significant health consequences for over a million veterans, their families, and on-site workers.
             </h5>
-            <a href="./lawsuits/Camp_Lejeune.html" class="card-btn btn-sm btn rounded-5 mt-3">Learn More</a>
+            <a href="./lawsuits/Camp_Lejeune" class="card-btn btn-sm btn rounded-5 mt-3">Learn More</a>
           </div>
           <div class="col-2"></div>
           <div class="col-5 cards p-3 text-start mb-5">
@@ -92,7 +92,7 @@
             <h5 class="cardstext text-start m-0 mb-2">
               The CPAP lawsuit pertains to legal actions involving Continuous Positive Airway Pressure (CPAP) devices, commonly used for treating sleep apnea.
             </h5>
-            <a href="./lawsuits/CPAP.html" class="card-btn btn-sm btn rounded-5 mt-3">Learn More</a>
+            <a href="./lawsuits/CPAP" class="card-btn btn-sm btn rounded-5 mt-3">Learn More</a>
           </div>
         </div>
         <div class="row rowwm align-items-center">
@@ -102,7 +102,7 @@
             <h5 class="cardstext text-start m-0 mb-2">
               Recent focus has turned to hair relaxers, powerful chemical blends designed to straighten curly or textured hair, amid concerns about a potential link to an elevated cancer risk.
             </h5>
-            <a href="./lawsuits/Hair_Straightener.html" class="card-btn btn-sm btn rounded-5 mt-3">Learn More</a>
+            <a href="./lawsuits/Hair_Straightener" class="card-btn btn-sm btn rounded-5 mt-3">Learn More</a>
           </div>
           <div class="col-2"></div>
           <div class="col-5 cards p-3 text-start mb-5">
@@ -111,7 +111,7 @@
             <h5 class="cardstext text-start m-0 mb-2">
               Lawsuits related to hernia mesh remain a substantial focus within the sphere of medical product liability. Individuals who faced serious complications due to the failure of their hernia mesh implants are pursuing legal action against the manufacturers
             </h5>
-            <a href="./lawsuits/Hernia_Mesh.html" class="card-btn btn-sm btn rounded-5 mt-3">Learn More</a>
+            <a href="./lawsuits/Hernia_Mesh" class="card-btn btn-sm btn rounded-5 mt-3">Learn More</a>
           </div>
         </div>
         <div class="row rowwm align-items-center ">
@@ -121,7 +121,7 @@
             <h5 class="cardstext text-start m-0 mb-2">
               Paraquat, an herbicide employed in agriculture since the 1960s for weed control, has in recent times been associated with a higher likelihood of Parkinson's disease.
             </h5>
-            <a href="./lawsuits/Paraquat.html" class="card-btn btn-sm btn rounded-5 mt-3">Learn More</a>
+            <a href="./lawsuits/Paraquat" class="card-btn btn-sm btn rounded-5 mt-3">Learn More</a>
           </div>
           <div class="col-2"></div>
           <div class="col-5 cards p-3 text-start mb-5">
@@ -130,7 +130,7 @@
             <h5 class="cardstext text-start m-0 mb-2">
               Roundup, the most popular herbicide in the world, is currently a focal point in numerous legal proceedings owing to its key component, glyphosate, which has been associated with cancer risk.
             </h5>
-            <a href="./lawsuits/Roundup.html" class="card-btn btn-sm btn rounded-5 mt-3">Learn More</a>
+            <a href="./lawsuits/Roundup" class="card-btn btn-sm btn rounded-5 mt-3">Learn More</a>
           </div>
         </div>
         <div class="row rowwm align-items-center ">
@@ -140,7 +140,7 @@
             <h5 class="cardstext text-start m-0 mb-2">
               Paraquat, an herbicide employed in agriculture since the 1960s for weed control, has in recent times been associated with a higher likelihood of Parkinson's disease.
             </h5>
-            <a href="./lawsuits/Talcum_Powder.html" class="card-btn btn-sm btn rounded-5 mt-3">Learn More</a>
+            <a href="./lawsuits/Talcum_Powder" class="card-btn btn-sm btn rounded-5 mt-3">Learn More</a>
           </div>
           <div class="col-2"></div>
           <div class="col-5 cards p-3 text-start mb-5">
@@ -149,7 +149,7 @@
             <h5 class="cardstext text-start m-0 mb-2">
               Roundup, the most popular herbicide in the world, is currently a focal point in numerous legal proceedings owing to its key component, glyphosate, which has been associated with cancer risk.
             </h5>
-            <a href="./lawsuits/Autism_Tylenol.html" class="card-btn btn-sm btn rounded-5 mt-3">Learn More</a>
+            <a href="./lawsuits/Autism_Tylenol" class="card-btn btn-sm btn rounded-5 mt-3">Learn More</a>
           </div>
         </div>
         
